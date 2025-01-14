@@ -38,12 +38,21 @@ namespace HelloWorld
             // Console.ReadLine();
             /* isminiz ne? diye sorulacak. aynı satıra adı yazılacak.
             bir alt satıra geçilecek. Soyadınız ne? diye sorulacak. ve aynı satıra yazılacak. bir alt satıra inilerek ekranda iyi günler yazılacak.
-            */
+            
+
             Console.Write("İsminiz Ney?");
             Console.ReadLine();
             Console.Write("Soyadınız Ney?");
             Console.ReadLine();
-            Console.Write("İyi Günler"); 
+            Console.Write("İyi Günler");
+            */
+            #endregion
+
+            #region StringDegiskenTipi
+            //  Degisken = Veri  -> atama operatörü sagdakiyi veriyi soldaki degiskene atar
+            string name;
+            name = "asaf";
+            Console.WriteLine(name); 
             #endregion
 
         }
