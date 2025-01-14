@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace HelloWorld
 {
@@ -121,14 +122,41 @@ namespace HelloWorld
                - mantıksal -          
                 * bool = true veya false
                  */
-            char first = 'a';
-            byte test = 254;
-            short test2 = 123;
-            int number = 444;
-            float test3 = 11.4F;
-            double test4 = 11.4;
-            decimal des = 15.8M;
-            bool test5 = false; 
+
+            //char first = 'a';
+            //byte test = 254;
+            //short test2 = 123;
+            //int number = 444;
+            //float test3 = 11.4F;
+            //double test4 = 11.4;
+            //decimal des = 15.8M;
+            //bool test5 = false; 
+            #endregion
+
+            #region Aritmatik Operatörler
+            // Aritmatik Operatörler
+            // + - * / %
+
+            //int number = 4 + 8;
+            //Console.WriteLine(number);
+
+            // kısa kenar 10  uzun kenarı 17 cm olam dikdiörtgen alanı nedir ?
+
+            double shortEdge = 10;
+            double longtEdge = 17;
+            double area = shortEdge * longtEdge;
+            Console.WriteLine(area);
+
+            string name = "asaf";
+            string surname = "dedec";
+            string fullName = name + " " + surname;
+            Console.WriteLine(fullName);
+
+            int number = 5;
+            //number = 5 * 5;
+            //number *= 5;
+            //number += 5;
+            Console.WriteLine(number); 
             #endregion
 
         }
