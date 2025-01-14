@@ -70,7 +70,7 @@ namespace HelloWorld
                 kullanici soyismi alinacak .
                 ekrana hoşgeldin ismi soyismi yazilacak.
 
-            */
+           
 
             string name, last_name;
             Console.Write("isminizi giriniz: ");
@@ -79,7 +79,56 @@ namespace HelloWorld
             last_name = Console.ReadLine();
             Console.WriteLine("Hoşgeldin " + name + " " + last_name);
 
+             */
+            #endregion
 
+            #region Uygulama02
+            /*
+            // "En sevdiğin meyve hangisi?" sorusunu sor
+            Console.WriteLine("En sevdiğin meyve hangisi?");
+            string fruit = Console.ReadLine();  // Kullanıcıdan meyve cevabını al
+
+            // "En sevdiğin tatlı hangisi?" sorusunu sor
+            Console.WriteLine("En sevdiğin tatlı hangisi?");
+            string dessert = Console.ReadLine();  // Kullanıcıdan tatlı cevabını al
+
+            // Cevapları ekrana yazdır
+            Console.WriteLine("\nDur tahmin ediyorum. En sevdiğin tatlı: " + dessert);
+            Console.WriteLine("En sevdiğin meyve: " + fruit);
+
+            // Uygulama sonlanmadan önce enter tuşuna basılmasını bekle
+            Console.WriteLine("\nUygulama sonlanması için Enter'a bas.");
+            Console.ReadLine(); 
+            */
+            #endregion
+
+            #region Degisken Tipleri
+            /*
+                Değişken Tipleri
+
+                -Metinsel -
+                    * string = ""
+                    * char = ''
+                -Sayısal -
+                    -Tam sayılar -
+                        * byte = 255
+                        * short = 32767 
+                        * int = 2.1 milyar
+                    - Ondalıklı Sayılar -
+                        * float = 11.4F
+                        * double = 13.7
+                        * decimal = 15.8M
+               - mantıksal -          
+                * bool = true veya false
+                 */
+            char first = 'a';
+            byte test = 254;
+            short test2 = 123;
+            int number = 444;
+            float test3 = 11.4F;
+            double test4 = 11.4;
+            decimal des = 15.8M;
+            bool test5 = false; 
             #endregion
 
         }
