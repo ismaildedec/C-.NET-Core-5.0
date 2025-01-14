@@ -33,6 +33,19 @@ namespace HelloWorld
                Console.WriteLine("deneme02, ");
               */
             #endregion
+
+            #region Uygulama
+            // Console.ReadLine();
+            /* isminiz ne? diye sorulacak. aynı satıra adı yazılacak.
+            bir alt satıra geçilecek. Soyadınız ne? diye sorulacak. ve aynı satıra yazılacak. bir alt satıra inilerek ekranda iyi günler yazılacak.
+            */
+            Console.Write("İsminiz Ney?");
+            Console.ReadLine();
+            Console.Write("Soyadınız Ney?");
+            Console.ReadLine();
+            Console.Write("İyi Günler"); 
+            #endregion
+
         }
     }
 }
