@@ -28,10 +28,7 @@ namespace WFA
             MessageBox.Show("Hello World");
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void btnTrue_MouseEnter(object sender, EventArgs e)
         {
@@ -54,6 +51,16 @@ namespace WFA
         {
             MessageBox.Show("Aramaya Devam Et !");
 
+        }
+
+        private void btnClick_MouseHover(object sender, EventArgs e)
+        {
+            btnClick.BackColor = Color.Red;
+        }
+
+        private void btnClick_MouseLeave(object sender, EventArgs e)
+        {
+            btnClick.BackColor = Color.White;
         }
     }
 }

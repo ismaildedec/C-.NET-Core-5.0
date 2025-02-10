@@ -37,13 +37,16 @@
             // 
             // btnClick
             // 
+            this.btnClick.BackColor = System.Drawing.Color.White;
             this.btnClick.Location = new System.Drawing.Point(261, 144);
             this.btnClick.Name = "btnClick";
             this.btnClick.Size = new System.Drawing.Size(164, 79);
             this.btnClick.TabIndex = 0;
             this.btnClick.Text = "Click";
-            this.btnClick.UseVisualStyleBackColor = true;
+            this.btnClick.UseVisualStyleBackColor = false;
             this.btnClick.Click += new System.EventHandler(this.button1_Click);
+            this.btnClick.MouseLeave += new System.EventHandler(this.btnClick_MouseLeave);
+            this.btnClick.MouseHover += new System.EventHandler(this.btnClick_MouseHover);
             // 
             // btnTrue
             // 
@@ -79,7 +82,6 @@
             this.btnFalse2.Size = new System.Drawing.Size(111, 53);
             this.btnFalse2.TabIndex = 1;
             this.btnFalse2.UseVisualStyleBackColor = true;
-            this.btnFalse2.Click += new System.EventHandler(this.button4_Click);
             this.btnFalse2.MouseEnter += new System.EventHandler(this.btnFalse2_MouseEnter);
             // 
             // Form1

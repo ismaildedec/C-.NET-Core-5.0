@@ -292,15 +292,18 @@ namespace HelloWorld
 
 
             #region Tip Dönüsümleri Örnegi
-            // Konsol üzerinden küçük kenarı ve büyük kenarı girilen bir dikdörtgenin çevresini hesaplayan uygulamayı yazınız
-            Console.Write("küçük kenarı giriniz: ");
-            int kucukKenar = Convert.ToInt32(Console.ReadLine());
-            Console.Write("büyük kenarı giriniz: ");
-            int buyukKenar = Convert.ToInt32(Console.ReadLine());
-            string cevre = ((kucukKenar + buyukKenar) + 2).ToString();
-            Console.Write("Dikdörtgenin çevresi = " + cevre);
+            //// Konsol üzerinden küçük kenarı ve büyük kenarı girilen bir dikdörtgenin çevresini hesaplayan uygulamayı yazınız
+            //Console.Write("küçük kenarı giriniz: ");
+            //int kucukKenar = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("büyük kenarı giriniz: ");
+            //int buyukKenar = Convert.ToInt32(Console.ReadLine());
+            //string cevre = ((kucukKenar + buyukKenar) + 2).ToString();
+            //Console.Write("Dikdörtgenin çevresi = " + cevre);
 
             #endregion
+
+
+
         }
     }
 }
