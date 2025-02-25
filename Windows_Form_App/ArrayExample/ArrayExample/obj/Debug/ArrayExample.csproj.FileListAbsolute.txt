@@ -1,0 +1,10 @@
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\bin\Debug\ArrayExample.exe.config
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\bin\Debug\ArrayExample.exe
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\bin\Debug\ArrayExample.pdb
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\obj\Debug\ArrayExample.csproj.AssemblyReference.cache
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\obj\Debug\ArrayExample.Form1.resources
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\obj\Debug\ArrayExample.Properties.Resources.resources
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\obj\Debug\ArrayExample.csproj.GenerateResource.cache
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\obj\Debug\ArrayExample.csproj.CoreCompileInputs.cache
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\obj\Debug\ArrayExample.exe
+C:\Users\ismai\Desktop\C-.NET-Core-5.0\Windows_Form_App\ArrayExample\ArrayExample\obj\Debug\ArrayExample.pdb
